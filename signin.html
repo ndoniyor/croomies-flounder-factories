@@ -1,0 +1,74 @@
+
+<html>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet"> 
+    <style>
+        body {
+            display: grid;
+            grid-template-rows: 1fr 10fr;
+            grid-template-areas: 
+            "Upper-bar"
+            "Lower-bar";
+        }
+        .Upper-bar {
+            background-color: grey;
+        }
+        .Lower-bar {
+            background-color: gold;
+        }
+        #title{
+            font-size: 30px;
+            color: royalblue;
+            font-family: 'Times New Roman';
+        }
+        .Logininfo{
+            
+        }
+        .createACC{
+            
+        }
+    </style>
+    <head>
+    </head>
+    <body>
+        <div class = "Upper-bar">
+            <div id = "Title">
+                <p>Croomies<p>
+            </div>
+            <div class = "Logininfo">
+                <form>
+                    <label for="fname">Username:</label>
+                    <input type="text" id="fname" name="fname"> 
+                    <br>
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pwd">
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+        <div class = "Lower-bar">
+            <div class = "createACC">
+                <p>Create Account</p>
+                <form>
+                    <label for="firstname">First name:</label>
+                    <input type="text" id="firstname" name="firstname"> 
+                    <br>
+                    <label for="lastname">Last name:</label>
+                    <input type="text" id="lastname" name="lastname">
+                    <br>
+                    <label for="Email">Email:</label>
+                    <input type="text" id="Email" name="Email">
+                    <br>
+                    <label for="fname">Username:</label>
+                    <input type="text" id="fname" name="fname">
+                    <br>
+                    <label for="Pass">Password:</label>
+                    <input type="password" id="Pass" name="Pass">
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </body>
