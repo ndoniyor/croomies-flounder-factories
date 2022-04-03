@@ -1,0 +1,26 @@
+{
+  "name": "croomies-flounder-factories",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "devStart": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ndoniyor/croomies-flounder-factories.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express" : "^4.17.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  },
+  "bugs": {
+    "url": "https://github.com/ndoniyor/croomies-flounder-factories/issues"
+  },
+  "homepage": "https://github.com/ndoniyor/croomies-flounder-factories#readme"
+}
